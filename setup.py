@@ -15,7 +15,7 @@ version = open(version_path).read()
 setup(
   name='SQLAlchemy-UTCDateTime',
   version=version,
-  modules=['sqlalchemy_utcdatetime'],
+  py_modules=['sqlalchemy_utcdatetime'],
   author="Nick Whyte",
   author_email='nick@nickwhyte.com',
   description="Convert to/from timezone aware datetimes when storing in a DBMS",
